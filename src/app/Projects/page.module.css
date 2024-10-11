@@ -1,0 +1,29 @@
+.container{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+@keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translateY(500px); /* Start slightly below */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Slide to the original position */
+    }
+  }
+  
+  .heading {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Customize your color */
+    animation: slideInUp 2s ease-in-out; /* Animation with 1 second duration */
+    text-align: center; /* Center the text */
+  }

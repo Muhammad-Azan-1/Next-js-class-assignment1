@@ -1,0 +1,45 @@
+
+.outerNavbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensures the navbar stays on top of other elements */
+    padding: 2px 0px;
+}
+
+.innerNavbox {
+    background-color: white;
+    width: 70%;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.innerNavbox ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+}
+
+.innerNavbox ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.2s ease;
+}
+
+.innerNavbox ul li:hover a {
+    color: #F4D03F; /* Change to mustard yellow */
+}
+
+.innerNavbox ul li:hover {
+    transform: translateY(-3px);
+}

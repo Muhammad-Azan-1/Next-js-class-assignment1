@@ -1,0 +1,65 @@
+.container{
+
+    display: flex;
+    justify-content:center;
+    gap:20px; 
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+@keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translateY(-500px); /* Start slightly below */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Slide to the original position */
+    }
+  }
+  
+  .heading {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    color: #333; /* Customize your color */
+    animation: slideInUp 2s ease-in-out; /* Animation with 1 second duration */
+    text-align: center; /* Center the text */
+  }
+
+.containers{
+    margin-top: 10px;
+}
+
+
+  .containers a{
+    background-color: #ffffff; /* White background for the button */
+    color: #333; /* Dark text color */
+    border: none; 
+    border-radius: 30px;
+    padding: 15px 30px; 
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; 
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.5s ease;
+    text-decoration: none;
+  
+}
+
+.containers{
+    transition: transform 0.5s ease;;
+
+}
+.containers:hover{
+    
+    transform:translateY(-5px); /* Lift effect on hover */
+}
+
+.containers a:hover{
+    background-color: #f4d03f; /* Change to mustard yellow on hover */
+    
+}
