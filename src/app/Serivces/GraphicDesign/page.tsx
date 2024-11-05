@@ -1,6 +1,6 @@
 
 import styles from './Graphic.module.css'
-import Navbar from '../../Components/Navbar/page';
+import Navbar from '../../Components/Navbar/navbar';
 
 export default function Home() {
   return (

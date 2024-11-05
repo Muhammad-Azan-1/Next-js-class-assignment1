@@ -1,6 +1,6 @@
 "use client";
 import styles from './page.module.css'
-import Navbar from '../Components/Navbar/page';
+import Navbar from '../Components/Navbar/navbar';
 import Link from 'next/link';
 export default function Home() {
 
